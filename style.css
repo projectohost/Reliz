@@ -234,7 +234,7 @@ background-color: #74400f;
 }
 
 .catalog-content {
-  max-width: 300px;
+  width: 100%;
   padding: 40px;
   text-align: center;
   color: #000000;
@@ -405,14 +405,22 @@ background-color: #74400f;
 
 .catalog-content{
   position: relative;
+  height: 300px;
 }
 
 .catalog-content img{
 position: absolute;
-top: 50px;
-left: -220%;
-width: 200%;
+top: 10px;
+left: 0%;
+width: 30%;
 }
+
+.catalog-content .img2{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 
 
 
